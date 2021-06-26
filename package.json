@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "browserify script.js -o bundle.js",
+    "fmt": "npx prettier --write ."
+  },
+  "dependencies": {
+    "hydra-synth": "^1.3.8"
+  }
+}
